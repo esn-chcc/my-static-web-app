@@ -102,16 +102,11 @@
             "scripts": [],
             "assets": ["src/favicon.ico", "src/assets"]
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": ["src/tsconfig.app.json", "src/tsconfig.spec.json"],
-            "exclude": ["**/node_modules/**"]
-          }
         }
       }
     }
   },
-  "defaultProject": "angular-app"
+  "cli": {
+    "analytics": "aa7350de-cf7a-40b0-b5fd-94a3448c5ae6"
+  }
 }
